@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "@wemake-services/javascript"
+  ],
+  "rules": {
+    "no-unused-vars": "off"
+  },
+  "env": {
+    "browser": true
+  }
+}
