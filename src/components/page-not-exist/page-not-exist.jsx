@@ -1,10 +1,10 @@
-import React from "react";
-import { Button, Result } from "antd";
-import { RouteNames } from "../../router/router";
-import { useNavigate } from "react-router-dom";
+import React from 'react'
+import { Button, Result } from 'antd'
+import { RouteNames } from '../../router/router'
+import { useNavigate } from 'react-router-dom'
 
 const PageNotExist = () => {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
   return (
     <>
@@ -21,7 +21,7 @@ const PageNotExist = () => {
         />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default PageNotExist;
+export default PageNotExist

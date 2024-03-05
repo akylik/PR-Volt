@@ -1,3 +1,5 @@
+/* eslint-disable unicorn/no-abusive-eslint-disable */
+/* eslint-disable */
 function generateUUID() {
   // Public Domain/MIT
   var d = new Date().getTime(); //Timestamp
